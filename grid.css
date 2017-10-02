@@ -1,0 +1,62 @@
+.wrapper{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"theheader"      
+	"thefeature" 
+	"thesignup"
+	"thefooter" 
+	;
+}
+
+.header{
+	grid-area: theheader;
+}
+
+.feature{
+	grid-area: thefeature;
+}
+
+.signup{
+	grid-area: thesignup;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"theclosingInfo theformContainer"
+	;
+}
+
+.closingInfo{
+	grid-area: theclosingInfo;
+}
+
+.formContainer{
+	grid-area: theformContainer;
+}
+
+.footer{
+	grid-area: thefooter;
+}
+
+@media (max-width: 519px){
+	.wrapper{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: 
+		"theheader" 
+		"thefeature"
+		"thesignup"
+		"thefooter"
+		;
+	} /*wrapper*/
+
+	.signup{ 
+		grid-template-columns: 1fr; 
+		grid-template-areas:
+		"theclosingInfo"
+		"theformContainer"
+		;
+
+	} /*signup*/
+} /*media*/

@@ -1,0 +1,162 @@
+        .wrapper{
+          background-image: url(images/srttweed.jpg);
+          max-width: 1080px;
+          margin: auto;
+        }
+
+        .header{
+          height: 100%;
+          max-width: 1080px;
+        }
+          .header h1{
+            font-size: 2.75em;
+            max-width: 1080px;
+            text-align: center;
+          }
+          .header h1,  nav{
+            background-color: rgba(70,116,208,.85);
+            border: solid #1e2422 3px;
+            max-width: 1080px;
+            -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+            -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+            box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          }
+          .header nav{
+            background-color: rgba(146, 120, 65, .8);
+            overflow: hidden;
+            text-align: center;
+          }
+          .header nav ul{
+            list-style-type: none;
+            list-style: none;
+            margin:0;
+            margin: 0 auto;
+            max-width: 1080px;
+            padding-left:1.06%;
+            width: 30em;
+          }
+          .header nav ul li{
+            float: left;
+            max-width: 1080px;
+          }
+          .header nav ul li a{
+            border: 2px solid #3B2717;
+            border-radius: .5em;
+            display:block;
+            font-size: 135%;
+            margin: .25em;
+            max-width: 1080px;
+            padding: .5em;
+            text-decoration: none;
+          }
+
+        .two{
+          background-color: rgba(146, 120, 65, .8);
+          font-weight: bold;
+          -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+        }
+          .two h2{
+              padding-left: 20px;
+          }
+          .two ul{
+              padding: 0 20px 0 0;
+          }
+
+        .three{
+          background-color: rgba(91, 136, 144, .8);
+          font-weight: bold;
+          -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+        }
+          .three h2 {
+            padding-left: 20px;
+          }
+          .three ul {
+            padding: 0 20px 0 0;
+          }
+
+        .four{
+          background-color: rgba(70,116,208,.85);
+          font-weight: bold;
+          -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+        }
+          .four h2{
+            padding-left: 20px;
+          }
+          .four ul{
+            padding: 0 20px 0 0;
+          }
+
+        .five{
+          background-color: rgba(159, 159, 159, .9);
+          box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          font-weight: bold;
+          -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+        }
+          .five h2{
+            padding-left: 20px;
+          }
+          .five ul{
+            padding: 0 20px 0 0;
+          }
+
+        .up{
+          min-width: 100%;
+        }
+
+        .footer{
+          background-color: rgba(159, 159, 159, .9);
+          border: solid #1e2422;
+          border-width: 3px;
+          clear:both;
+          font-size: 1.2em;
+          font-weight: bold;
+          max-width: 1080px;
+          position: relative;
+          -webkit-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          -moz-box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+          box-shadow: inset -1px 1px 26px rgba(30,36,34,0.7);
+        }
+          .footer h4{
+              float: right;
+              font-size: 1.5em;
+              padding-right: 3.5%;
+              position: relative;
+              text-align: right;
+              width: 13em;
+          }
+          .footer img{
+              border: solid #1e2422;
+              border-width: 3px;
+              float: left;
+              max-height: 95%;
+              position: absolute;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=200, initial-scale=1">
+    <title>Discography | Home</title>
+    <link href="http://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet" type="text/css">
+    <link href="grid.css" rel="stylesheet">
+    <link href="style-grid.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+	   <div class="header">
+		  <h1>
+            <i><b>Sister Rosetta Tharpe:<a href="https://vimeo.com/101093967">"The Godmother of Rock 'n' Roll"</a></b></i>
+            </h1><br>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><i><b>Home</b></i></a></li>
+                        <li><a href="media.html"><i><b>Media References</b></i></a></li>
+                        <li><a href="albums.html"><i><b>Discography</b></i></a></li>
+                    </ul>
+                </nav>
+        </div><!--header-->
+
+	<div class="feature">
+        <h2><b><i><a href="https://en.wikipedia.org/wiki/Sister_Rosetta_Tharpe">Sister Rosetta Tharpe</a> was an American singer, 
+            songwriter, guitarist and recording artist. She was the <a href="https://www.forbes.com/sites/edwardzimmerman/2016/01/10/the-legendary-sister-rosetta-tharpe-in-5-songs/#62f824cf2b14">first recording superstar of Gospel music.</a> She was a major influence to many early Rock 'n' Roll icons including <a href="https://en.wikipedia.org/wiki/Elvis_Presley">Elvis,</a><a href="https://en.wikipedia.org/wiki/Johnny_Cash"> Johnny Cash</a> and <a href="https://en.wikipedia.org/wiki/Chuck_Berry">Chuck Berry.
+        </a></i></b></h2>
+            <img src="images/srtportrait2.jpg" class="portrait" alt="Sister Rosetta Tharpe" title="SRT Portrait">
+    </div><!--feature-->
+
+    <div class="signup">
+        <div class="closingInfo">
+            <p>Join <strong>SRT Fan Club</strong> for the latest news on <strong>Sister Rosetta Tharpe</strong>.</p>
+        </div><!--closingInfo-->
+
+     <div class="formContainer">
+         <form>
+                * FIRST NAME (*Required):<br>
+                <input type="text" name="firstname">
+                <br>
+                LAST NAME:<br>
+                <input type="text" name="lastname">
+                <br>
+                ADDRESS:<br>
+                <input type="text" name="address">
+                <br>
+                CITY:<br>
+                <input type="text" name="city">
+                <br>
+                STATE:<br>
+                <input type="text" name="state">
+                <br>
+                ZIP CODE:<br>
+                <input type="text" name="zipcode">
+                <br>
+                BIRTHDAY:<br>
+                <input type="text" name="birthday">
+                <br>
+                * EMAIL (*Required):<br>
+                <input type="text" name="email">
+                <br>
+                COMMENTS:<br>
+                <span id="comments"><input type="text" name="comment"></span>
+                <br><SCRIPT language=JavaScript>
+            
+
+                //Accept terms & conditions script (by InsightEye www.insighteye.com)
+                //Visit JavaScript Kit (http://javascriptkit.com) for this script & more.
+
+                function checkCheckBox(f){
+                if (f.agree.checked == false )
+                {
+                alert('Please check the box to continue.');
+                return false;
+                }else
+                return true;
+                }
+                //-->
+                </SCRIPT>
+
+             <form action="/yourscript.cgi-or-your-page.html" method="POST" onsubmit="return checkCheckBox(this)">
+
+             <!--Enter your form contents here-->
+
+                <b>I agree to the terms and conditions.</b><br />
+                I accept:<input type="checkbox" value="0" name="agree">
+
+             <input type="submit" value="Join SRT Fan Club">
+             <input type="button" value="Exit" onclick="document.location.href='/index.html';">
+            </form>
+            </form>
+        </div><!--formContainer-->
+    </div><!--signup-->
+
+	<div class="footer">
+        <h3><i><b>© Jeff Pike 2017</b></i></h3>
+            <a href="#"><img src="images/srttop.jpg" alt="Button to the top of page" title="To The Top"></a>
+    </div><!--footer-->
+
+    </div><!--wrapper-->
+  </body>
+</html>

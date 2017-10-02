@@ -1,0 +1,66 @@
+.header{
+  grid-area: theheader;
+}
+
+.two{
+  grid-area: thetwo;
+}
+
+.three{
+  grid-area: thethree;
+}
+
+.four{
+  grid-area: thefour;
+}
+
+.five{
+  grid-area: thefive;
+}
+
+.footer{
+  grid-area: thefooter;
+}
+
+
+
+
+
+
+.wrapper{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "theheader theheader theheader theheader"
+  "thetwo thethree thefour thefive"
+  "thefooter thefooter thefooter thefooter"
+  ;
+}
+
+@media (max-width: 917px){
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "theheader theheader"
+    "thetwo thethree"
+    "thefour thefive"
+    "thefooter thefooter"
+    ;
+  }
+}
+
+@media (max-width: 471px){
+  .wrapper {
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "theheader"
+    "thetwo"
+    "thethree"
+    "thefour"
+    "thefive"
+    "thefooter"
+    ;
+  } /*wrapper*/
+} /*media*/
